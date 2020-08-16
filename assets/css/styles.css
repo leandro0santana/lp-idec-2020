@@ -342,7 +342,7 @@ footer {
   margin-top: 4rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 825px) {
   body {
     font-size: 62.5%;
   }
