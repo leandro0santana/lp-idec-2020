@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+  font-size: 60%;
+}
+
+button {
+  font: 700 4rem Arial;
+  cursor: pointer;
+}
+
+.desktop {
+  visibility: hidden;
+}
+
+.content-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+}
+
+.content-image img {
+  width: 50%;
+}
+
+.block-one {
+  background-image: url("../images/background-block-one.png");
+  background-size: cover;
+}
+
+.title-block-one {
+  font: 800 5rem "Nunito";
+  text-transform: uppercase;
+  text-align: center;
+  color: #193c76;
+  line-height: 5rem;
+
+  padding: 3rem 1.5rem;
+}
+
+.title-block-one span {
+  font-size: 7.2rem;
+  font-weight: 900;
+}
+
+.text-block-one {
+  font: 800 1.9rem "Nunito";
+  text-transform: uppercase;
+  color: #000;
+  line-height: 2.8rem;
+  text-align: center;
+
+  padding-bottom: 1.5rem;
+}
+
+.text-block-one span {
+  font-size: 3.2rem;
+}
+
+.content-one-button {
+  background-color: #FFF;
+  height: 11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-block-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c10008;
+  color: #FFF;
+  width: 25rem;
+  height: 5.6rem;
+  font: 700 3rem Arial;
+  border-radius: 1rem;
+}
+
+.image-block-one {
+  width: 100%;
+}
+
+.block-two {
+  background-color: #000;
+  width: 100vw;
+  padding: 6rem 0;
+}
+
+.title-block-two {
+  font: 800 3rem "Baloo Tamma 2";
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFF;
+  line-height: 3.5rem;
+
+  padding: 0 1.5rem 2rem;
+}
+
+.title-block-two span {
+  font-size: 8.5rem;
+  font-weight: 900;
+  color: #c10008;
+  line-height: 6.5rem;
+}
+
+.text-block-two {
+  font: 1.8rem "Baloo Tamma 2";
+  color: #FFF;
+  line-height: 2.8rem;
+  text-align: center;
+
+  padding: 0 2.5rem 2.5rem;
+}
+
+.image-block-two-mobile {
+  width: 100%;
+}
+
+.block-three {
+  background-color: #e5e5e5;
+  width: 100vw;
+}
+
+.title-block-three {
+  font: 800 2.5rem "Baloo Tamma 2";
+  text-transform: uppercase;
+  text-align: center;
+  color: #193c76;
+  line-height: 2.8rem;
+  padding: 3rem 0;
+}
+
+.title-block-three span {
+  color: #c10008;
+}
+
+.background-white {
+  background-color: #FFF;
+  padding: 4rem 0;
+}
+
+.subtitle-block-three {
+  font: 800 2.3rem "Baloo Tamma 2";
+  text-transform: uppercase;
+  text-align: center;
+  color: #c10008;
+  line-height: 2.4rem;
+  padding: 0 5.5rem;
+}
+
+.text-block-three {
+  font: 1.75rem "Baloo Tamma 2";
+  color: #5b5858;
+  line-height: 2.4rem;
+  text-align: center;
+
+  padding: 2rem 0;
+}
+
+.content-button-three {
+  height: 11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-block-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c10008;
+  color: #FFF;
+  width: 32rem;
+  height: 5.6rem;
+  font: 700 2.5rem Arial;
+  border-radius: 1rem;
+}
+
+.block-four {
+  background-color: #000;
+  width: 100vw;
+}
+
+.title-block-four {
+  font: 800 3rem "Baloo Tamma 2";
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFF;
+  line-height: 3.5rem;
+
+  padding: 6rem 0 3rem;
+}
+
+.title-block-four span {
+  color: #c10008;
+}
+
+.line-block-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 3rem;
+}
+
+.line-block-four hr {
+  width: 85%; 
+  border: 1px solid #c10008; 
+}
+
+.text-primary-block-four{
+  font: 1.7rem "Baloo Tamma 2";
+  color: #FFF;
+  line-height: 2.8rem;
+  text-align: center;
+
+  padding: 0 1rem;
+}
+
+.text-secondary-block-four {
+  font: 1.75rem "Baloo Tamma 2";
+  color: #FFF;
+  line-height: 2.8rem;
+  text-align: center;
+
+  padding: 0 0.5rem;
+}
+
+.content-button-four {
+  background-color: #c10008;
+  height: 11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 5rem;
+}
+
+.button-block-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+  color: #000;
+  width: 34rem;
+  height: 5.6rem;
+  font: 700 2.2rem Arial;
+  border-radius: 1rem;
+}
+
+.block-five {
+  background-image: url("../images/background-block-five.png");
+  background-size: cover;
+
+  padding: 5rem 0;
+}
+
+.title-block-five {
+  font: 800 2.8rem "Nunito";
+  text-transform: uppercase;
+  text-align: center;
+  color: #193c76;
+  line-height: 3rem;
+
+  padding: 0 2rem;
+}
+
+.text-block-five {
+  font: 800 2.5rem "Nunito";
+  text-transform: uppercase;
+  color: #000;
+  line-height: 2.8rem;
+  text-align: center;
+
+  padding: 2rem;
+}
+
+.image-block-five {
+  width: 100%;
+}
+
+.content-five-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-block-five {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c10008;
+  color: #FFF;
+  width: 25rem;
+  height: 5.6rem;
+  font: 700 3rem Arial;
+  border-radius: 1rem;
+}
+
+footer {
+  margin: 3rem 0;
+}
+
+.social-rede {
+  margin: 0 1.6rem;
+}
+
+.icon-sociais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.4rem;
+}
+
+.icon-sociais img {
+  margin-left: 1.6rem
+}
+
+.text-social {
+  font: 3.3rem "Baloo Tamma 2";
+  color: #000;
+  line-height: 4rem;
+  text-align: center;
+}
+
+.image-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-footer img {
+  width: 70%;
+  margin-top: 4rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 62.5%;
+  }
+
+  .mobile {
+    visibility: hidden;
+  }
+}
