@@ -25,7 +25,7 @@ html, body {
 .title-block-one {
   font: 800 5rem "Nunito";
   text-transform: uppercase;
-  color: #193c76;
+  color: #c10008;
   line-height: 5rem;
 
   padding: 3rem 1.5rem;
@@ -241,8 +241,8 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFF;
-  color: #000 !important;
+  background-color: #000;
+  color: #FFF !important;
   width: 34rem;
   height: 5.6rem;
   font: 700 2.2rem Arial;
@@ -425,8 +425,7 @@ footer {
   }
 
   .text-social {
-    font: 2rem "Baloo Tamma 2";
-    color: #000;
+    font-size: 2rem;
     line-height: 2.2rem;
     text-align: right;
     width: 17rem;
@@ -477,9 +476,7 @@ footer {
   }
   
   .title-block-one {
-    font: 800 3.5rem "Nunito";
-    text-transform: uppercase;
-    color: #c10008;
+    font-size: 3.5rem;
     line-height: 4.5rem;
   
     padding: 3rem 1.5rem;
@@ -496,9 +493,7 @@ footer {
   }
   
   .text-block-one {
-    font: 800 2rem "Nunito";
-    text-transform: uppercase;
-    color: #000;
+    font-size: 2rem;
     line-height: 2.4rem;
   
     padding-bottom: 1.5rem;
@@ -509,16 +504,9 @@ footer {
   }
 
   .button-block-one {
-    background-color: #c10008;
-    color: #FFF !important;
     width: 25rem;
     height: 5.6rem;
-    font: 700 3rem Arial;
-    border-radius: 1rem;
-    text-decoration: none !important;
-    border: 0;
-    outline: 0;
-    transition: opacity 0.5s;
+    font-size: 3rem;
   }
   
   .block-two {
@@ -599,7 +587,6 @@ footer {
   
   .subtitle-block-three {
     font-size: 2.8rem;
-    color: #000;
     line-height: 3rem;
   }
   
@@ -634,6 +621,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2rem;
   }
 
   .block-text-secondary-four {
@@ -679,8 +667,6 @@ footer {
   }
 
   .button-block-four {
-    background-color: #000;
-    color: #FFF !important;
     width: 45rem;
     font-size: 2.8rem;
   }
