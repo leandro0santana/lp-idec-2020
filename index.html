@@ -3,6 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Consumidores mais bem informados são capazes de fazer melhores escolhas em direção a uma alimentação mais saudável.">
+  <meta name="author" content="Engage">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+
+  <!-- Facebook -->
+  <meta property="og:url" content="https://direitodesaber.org/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Rotulagem Nutricional Adequada Já! - Aliança Pela Alimentação Adequada e Saudável" />
+  <meta property="og:description" content="Consumidores mais bem informados são capazes de fazer melhores escolhas em direção a uma alimentação mais saudável." />
+  <meta property="og:image" content="https://direitodesaber.org/assets/images/refrigerante.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="https://direitodesaber.org/" />
+  <meta property="og:title" content="Rotulagem Nutricional Adequada Já! - Aliança Pela Alimentação Adequada e Saudável" />
+  <meta property="og:description" content="Consumidores mais bem informados são capazes de fazer melhores escolhas em direção a uma alimentação mais saudável." />
+  <meta property="og:image" content="https://direitodesaber.org/assets/images/refrigerante.png" />
   
   <title>Direito de Saber</title>
 
@@ -10,46 +27,136 @@
   
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
   <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="assets/css/style-timeline.css" rel="stylesheet">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175572187-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-175572187-1');
+  </script>
 </head>
 <body>
   <header>
     <div class="content-image">
       <img src="assets/images/logo_header_alianca.png" alt="Aliança Pela Alimentação Adequada e Saudável">
     </div>
+    <nav class="content-menu">
+      <ul class="menu-nav">
+        <li>
+          <a class="link-item active-link" href="#top">Rotulagem</a>
+        </li>
+        <li>
+          <a class="link-item" href="#timeline">Linha do Tempo</a>
+        </li>
+        <li>
+          <a class="link-item" href="#evidence">Evidência Científica</a>
+        </li>
+        <li>
+          <a class="link-item" href="#contact">Contato</a>
+        </li>
+      </ul>
+    </nav>
   </header>
+  
   <main>
     <section class="block-one">
-      <div class="container mobile text-center">
-        <h1 class="title-block-one">
-          Contém <br>
-          <span>308 mg</span> <br>
-          de sódio.
-        </h1>
-        <p class="text-block-one">
-          <span>Culpado:</span> <br>
-          mais um pacotinho que esconde de você o que tem dentro dele.
-        </p>
-        <img src="assets/images/salgadinho.png" alt="Salgadinho" class="image-block-one mobile">
-      </div>
-      <div class="content-one-button mobile">
-        <a href="https://alimentacaosaudavel.org.br/campanhas/rotulagem/" target="_blank" class="button-block-one">saiba mais</a>
-      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="content-block-one">
+              <div class="block-body-one">
+                <div class="container-one">
+                  <h1 class="title-block-one text-center">
+                    Contém <br>
+                    <span>37g</span> <br>
+                    de açúcar.
+                  </h1>
+                  <div class="text-center">
+                    <p class="text-block-one">
+                      <span>Culpada:</span> <br>
+                      mais uma latinha que esconde de você o que tem dentro dela.
+                    </p>
+                    <div class="content-one">
+                      <a href="https://alimentacaosaudavel.org.br/campanhas/rotulagem/" target="_blank" class="button-block-one">saiba mais</a>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <img src="assets/images/refrigerante.png" alt="Refrigerante" class="image-block-one">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4">
+            <div class="peticao">
+              <form action="" method="post" class="form-peticao">
+                <h2 class="title-form">ASSINE A PETIÇÃO</h2>
+                <div class="form-group">
+                  <input type="text" class="form-control input-form" placeholder="Primeiro Nome" name="nome" id="nome" >
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control input-form" placeholder="Sobrenome" name="sobrenome" id="sobrenome" >
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control input-form" placeholder="Email" name="email" id="email" >
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control input-form" placeholder="Cidade" id="cidade" name="cidade">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control input-form" placeholder="Estado" id="estado" name="estado">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" rows="5" disabled>
+Mensagem a ser enviada nesta campanha:
 
-      <div class="container desktop">
-        <div class="content-block-one">
-          <img src="assets/images/refrigerante-desk.png" alt="Refrigerante" class="image-block-one">
-          <div class="block-body-one text-center">
-            <h1 class="title-block-one">
-              Contém <br>
-              <span>37g</span> <br>
-              de açúcar.
-            </h1>
-            <p class="text-block-one">
-              <span>Culpado:</span> <br>
-              mais uma latinha que esconde de você o que tem dentro dela.
-            </p>
-            <a href="https://alimentacaosaudavel.org.br/campanhas/rotulagem/" target="_blank" class="button-block-one">saiba mais</a>
+Senhores Diretores da Agência Nacional de Vigilância Sanitária (Anvisa),
+
+Considerando que é um direito básico do consumidor “a informação adequada e clara sobre os diferentes produtos e serviços, com especificação correta de quantidade, características, composição, qualidade e preço, bem como sobre os riscos que apresentem”, conforme previsto no Código de Defesa do Consumidor (CDC);
+
+Considerando que as regras vigentes sobre informação nutricional nos rótulos de alimentos no Brasil não garantem o direito à informação sobre a composição e a qualidade nutricional dos alimentos devido a vários problemas de visualização e compreensão do conteúdo e de mensagens contraditórias na parte frontal da embalagem;
+
+Considerando a experiência bem sucedida do Chile em adotar um modelo de rotulagem nutricional frontal de advertências com a utilização de texto com linguagem direta e simples, o uso da alusão gráfica do octógono que remete a uma placa de “Pare” e o uso da cor preta;
+
+Considerando a importância do alinhamento da rotulagem nutricional com o Guia Alimentar para a População Brasileira, que tem como princípio que as escolhas alimentares devem levar em conta a extensão e o propósito do processamento industrial dos alimentos;
+
+Considerando as recomendações de organismos internacionais de saúde incluindo a Organização Mundial da Saúde e a Organização Pan-Americana da Saúde, de que a adoção de regras de rotulagem de alimentos adequadas contribuem para melhores escolhas alimentares e consequentemente para a prevenção da obesidade, hipertensão, diabetes e outras doenças crônicas;
+
+Considerando as evidências internacionais de que a informação nutricional complementar disposta na parte da frente da embalagem, com mensagens e símbolos simples e de fácil visualização, é benéfica para o entendimento dos consumidores e influencia na mudança da intenção de compra dos alimentos;
+
+As organizações e pessoas físicas que assinam esta petição manifestam sua posição favorável à adoção da proposta de rotulagem nutricional apresentado pelo Idec (Instituto Brasileiro de Defesa do Consumidor), com o apoio de pesquisadores em design da informação UFPR (Universidade Federal do Paraná), para a Anvisa.
+
+**Sua Assinatura**
+                  </textarea>
+                  <p class="text-form">Quero receber emails da Aliança</p>
+                </div>
+                <div class="button-apoio">
+                  <button type="submit" class="button-form">EU APOIO</button>
+                </div>
+                <p class="text-compartilhe">Compartilhe:</p>
+                <div class="form-row">
+                  <div class="form-group col-md-6 button-compartilhe">
+                    <a href="https://web.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https%3A%2F%2Fdireitodesaber.org&display=popup&ref=plugin&src=share_button" target="_blank" class="button-facebook">facebook</a>
+                  </div>
+                  <div class="form-group col-md-6 button-compartilhe">
+                    <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdireitodesaber.org&text=Eu%20assinei%20a%20peti%C3%A7%C3%A3o%20pela%20%23RotulagemAdequadaJ%C3%A1!%20Assine%20voc%C3%AA%20tamb%C3%A9m!" target="_blank" class="button-twiiter">Twitter</a>
+                  </div>
+                </div>
+              </form>
+              <div class="block-total">
+                <p>
+                  Mais de <span>90 mil</span> pessoas já apoiam esta proposta.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -57,21 +164,29 @@
 
     <section class="block-two">
       <div class="container text-center">
-        <h2 class="title-block-two mobile">
-          Estamos há <br>
-          <span>6 anos</span> <br>
+        <h2 class="title-block-two">
+          <span>Estamos há</span> <br>
+          <div class="contador-block-two">
+            <div class="ano-block">
+              <h2 class="title-contador-block-two">05</h2>
+              <p class="text-contador-block-two">Anos</p>
+            </div>
+            <div class="mes-block">
+              <h2 class="title-contador-block-two">09</h2>
+              <p class="text-contador-block-two">Meses</p>
+            </div>
+            <div class="dia-block">
+              <h2 class="title-contador-block-two">01</h2>
+              <p class="text-contador-block-two">Dias</p>
+            </div>
+          </div>
           esperando uma decisão da Anvisa!
         </h2>
-        <div class="block-title-two desktop">
-          <h2 class="title-block-two">
-            <span>Estamos há 6 anos esperando</span> uma decisão da Anvisa!
-          </h2>
-        </div>
         <div class="block-text-primary-two">
-          <p class="text-block-two">A Aliança pela Alimentação Adequada e Saudável <strong>defende o alerta na frente das embalagens dos alimentos para informar quando há excesso de nutrientes que são prejudiciais à saúde,</strong> como sal, açúcar e gordura saturada. Afinal, nós temos o direito de saber o que comemos.</p>
+          <p class="text-block-two">A Aliança pela Alimentação Adequada e Saudável <strong>defende o alerta na frente das embalagens dos alimentos para informar quando há excesso de nutrientes que são prejudiciais à saúde,</strong> como sal, açúcar e gorduras saturadas.</p>
         </div>
         <div class="block-text-secondary-two">
-          <p class="text-block-two">Essa luta vem desde 2014, quando o Idec (Instituto Brasileiro de Defesa do Consumidor) passou a representar os consumidores em um grupo de trabalho criado pela Anvisa (Agência Nacional de Vigilância Sanitária) para melhorar os rótulos dos alimentos.</p>
+          <p class="text-block-two">Afinal, nós temos o direito de saber o que comemos. Essa luta vem desde 2014, quando o Idec (Instituto Brasileiro de Defesa do Consumidor) passou a representar os consumidores em um grupo de trabalho criado pela Anvisa (Agência Nacional de Vigilância Sanitária) para melhorar os rótulos dos alimentos.</p>
         </div>
         <img src="assets/images/triangulos.png" alt="Triângulos" class="image-block-two">
       </div>
@@ -88,14 +203,30 @@
       </div>
       <div class="background-white text-center">
         <div class="container">
-          <h3 class="subtitle-block-three">
-            Faltam 8 semanas para o fim do prazo.
+          <h3 class="subtitle-block-three-red">
+            Faltam
+          </h3>
+          <div class="contador-block-three">
+            <div class="ano-block">
+              <h2 class="title-contador-block-three">05</h2>
+              <p class="text-contador-block-three">Semanas</p>
+            </div>
+            <div class="mes-block">
+              <h2 class="title-contador-block-three">08</h2>
+              <p class="text-contador-block-three">Dias</p>
+            </div>
+            <div class="dia-block">
+              <h2 class="title-contador-block-three">25</h2>
+              <p class="text-contador-block-three">Horas</p>
+            </div>
+          </div>
+          <h3 class="subtitle-block-three-black">
+            PARA O FIM DO PRAZO
           </h3>
           <div class="block-text-three">
             <p class="text-block-three">A consulta pública sobre rotulagem nutricional, que ocorreu entre setembro e dezembro de 2019, teve recorde de participação. Mas <strong>ainda estamos esperando uma decisão da Anvisa.</strong></p>
           </div>
-          <img src="assets/images/refrigerante.png" alt="Refrigerante" class="image-block-three mobile">
-          <img src="assets/images/salgadinho-desk.png" alt="Salgadinho" class="image-block-three desktop">
+          <img src="assets/images/salgadinho-desk.png" alt="Salgadinho" class="image-block-three">
         </div>
       </div>
       <div class="content-button-three">
@@ -123,48 +254,306 @@
         </div>
       </div>
       <div class="content-button-four">
-        <a href="https://alimentacaosaudavel.org.br/campanhas/rotulagem/" target="_blank" class="button-block-four">não podemos mais esperar</a>
+        <a href="https://alimentacaosaudavel.org.br/campanhas/rotulagem/" target="_blank" class="button-block-four">Não podemos mais esperar</a>
       </div>
     </section>
     
     <section class="block-five">
       <div class="container text-center">
         <div class="block-title-five">
-          <h1 class="title-block-five">
+          <h2 class="title-block-five">
             Rotulagem frontal nas embalagens dos alimentos.
-          </h1>
+          </h2>
         </div>
         <div class="block-text-five">
           <p class="text-block-five">
-            Defenda o seu direito de saber o que come.
+            Defenda o seu direito de saber o que come. <span>Assine já a petição.</span>
           </p>
         </div>
         <img src="assets/images/produtos.png" alt="Produtos" class="image-block-five">
       </div>
       <div class="content-five-button">
-        <a href="https://alimentacaosaudavel.org.br/campanhas/rotulagem/" target="_blank" class="button-block-five">saiba como</a>
+        <a href="https://alimentacaosaudavel.org.br/campanhas/rotulagem/" target="_blank" class="button-block-five">Linha do tempo</a>
+      </div>
+    </section>
+    
+    <section class="block-six">
+      <div class="container text-center" id="timeline">
+        <div class="block-title-six">
+          <h2 class="title-block-six">
+            Confira o histórico do processo de revisão das regras de rotulagem nutricional no Brasil.
+          </h2>
+        </div>
+        <div>
+          <section class="cd-h-timeline js-cd-h-timeline margin-bottom-md">
+            <div class="cd-h-timeline__container container">
+              <div class="cd-h-timeline__dates">
+                <div class="cd-h-timeline__line">
+                  <ol>
+                    <li><a href="#0" data-date="16/01/2014" class="cd-h-timeline__date cd-h-timeline__date--selected text-line">2014</a></li>
+                    <li><a href="#0" data-date="28/02/2014" class="cd-h-timeline__date text-line">2017</a></li>
+                    <li><a href="#0" data-date="20/04/2014" class="cd-h-timeline__date text-line">MAIO DE 2018</a></li>
+                    <li><a href="#0" data-date="20/05/2014" class="cd-h-timeline__date text-line">MAIO A JULHO DE 2018</a></li>
+                    <li><a href="#0" data-date="09/07/2014" class="cd-h-timeline__date text-line">ABRIL DE 2019</a></li>
+                    <li><a href="#0" data-date="30/08/2014" class="cd-h-timeline__date text-line">SETEMBRO DE 2019</a></li>
+                    <li><a href="#0" data-date="15/09/2014" class="cd-h-timeline__date text-line">DEZEMBRO DE 2019</a></li>
+                    <li><a href="#0" data-date="01/11/2014" class="cd-h-timeline__date text-line">MARÇO DE 2020</a></li>
+                    <li><a href="#0" data-date="03/03/2015" class="cd-h-timeline__date text-line line-ultimato">SETEMBRO DE 2020</a></li>
+                  </ol>
+        
+                  <span class="cd-h-timeline__filling-line" aria-hidden="true"></span>
+                </div> <!-- .cd-h-timeline__line -->
+              </div> <!-- .cd-h-timeline__dates -->
+                
+              <ul>
+                <li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--prev cd-h-timeline__navigation--inactive">Prev</a></li>
+                <li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--next">Next</a></li>
+              </ul>
+            </div> <!-- .cd-h-timeline__container -->
+        
+            <div class="cd-h-timeline__events content-timeline">
+              <ol>
+                <li class="cd-h-timeline__event cd-h-timeline__event--selected text-component">
+                  <div class="cd-h-timeline__event-content container">
+                    <h2 class="cd-h-timeline__event-title title-timeline">2014 - Formação do Grupo de Trabalho</h2>
+                    <p class="cd-h-timeline__event-description color-contrast-medium text-timeline"> 
+                      Criação de grupo de Trabalho na Anvisa para identificar problemas e propor melhorias às atuais regras de rotulagem nutricional dos alimentos, com a participação de representantes do governo, sociedade civil, pesquisadores e setor produtivo.
+                    </p>
+                  </div>
+                </li>
+        
+                <li class="cd-h-timeline__event text-component">
+                  <div class="cd-h-timeline__event-content container">
+                    <h2 class="cd-h-timeline__event-title title-timeline">2017 - Apresentação do modelo de triângulos</h2>
+                    <p class="cd-h-timeline__event-description color-contrast-medium  text-timeline"> 
+                      Após a conclusão do Grupo de Trabalho, o Idec, juntamente com pesquisadores da UFPR (Universidade Federal do Paraná), apresenta à Anvisa a proposta dos triângulos com base em análise, pesquisas científicas e experiências internacionais.
+                    </p>
+                    <img src="assets/images/triangulos_timeline.png" alt="" width="500px">
+                  </div>
+                </li>
+        
+                <li class="cd-h-timeline__event text-component">
+                  <div class="cd-h-timeline__event-content container">
+                    <h2 class="cd-h-timeline__event-title title-timeline">maio de 2018 - Anvisa apoia o modelo de advertências</h2>
+                    <p class="cd-h-timeline__event-description color-contrast-medium  text-timeline"> 
+                      Anvisa publica o Relatório Preliminar de Análise de Impacto Regulatório, que afirma que o modelo de advertências (como o triângulo proposto pelo Idec) é o mais adequado para informar à população brasileira.
+                    </p>
+                  </div>
+                </li>
+        
+                <li class="cd-h-timeline__event text-component">
+                  <div class="cd-h-timeline__event-content container">
+                    <h2 class="cd-h-timeline__event-title title-timeline">maio a julho de 2018 - Tomada pública de subsídios</h2>
+                    <p class="cd-h-timeline__event-description color-contrast-medium  text-timeline"> 
+                      Anvisa realiza uma consulta pública técnica para coletar dados, informações e evidências científicas sobre os rótulos dos alimentos. A consulta conta com 3.579 participações.
+                    </p>
+                  </div>
+                </li>
+        
+                <li class="cd-h-timeline__event text-component">
+                  <div class="cd-h-timeline__event-content container">
+                    <h2 class="cd-h-timeline__event-title title-timeline">Abril de 2019 – Divulgação de Calendário</h2>
+                    <p class="cd-h-timeline__event-description color-contrast-medium  text-timeline"> 
+                      Anvisa divulga o relatório com a análise das contribuições recebidas na consulta pública técnica.
+                    </p>
+                  </div>
+                </li>
+        
+                <li class="cd-h-timeline__event text-component">
+                  <div class="cd-h-timeline__event-content container">
+                    <h2 class="cd-h-timeline__event-title title-timeline">setembro de 2019 – Abertura da consulta pública</h2>
+                    <p class="cd-h-timeline__event-description color-contrast-medium  text-timeline"> 
+                      A Anvisa divulga o texto final consolidado da norma de aprimoramento da rotulagem nutricional e apresenta para consulta pública uma nova proposta de rotulagem nutricional para que a população possa opinar e discutir sobre as informações que deverão estar presentes nas embalagens dos alimentos.
+                    </p>
+                  </div>
+                </li>
+        
+                <li class="cd-h-timeline__event text-component">
+                  <div class="cd-h-timeline__event-content container">
+                    <h2 class="cd-h-timeline__event-title title-timeline">dezembro de 2019 - Encerramento da consulta pública</h2>
+                    <p class="cd-h-timeline__event-description color-contrast-medium  text-timeline"> 
+                      Com mais de 23 mil participações, a consulta pública sobre rotulagem nutricional da Anvisa bate um recorde no número de contribuições.
+                    </p>
+                  </div>
+                </li>
+        
+                <li class="cd-h-timeline__event text-component">
+                  <div class="cd-h-timeline__event-content container">
+                    <h2 class="cd-h-timeline__event-title title-timeline">março de 2020 – Anvisa prorroga decisão final do processo, mas mantém a decisão na agenda regulatória</h2>
+                    <p class="cd-h-timeline__event-description color-contrast-medium  text-timeline"> 
+                      Com a pandemia de Covid-19, a Anvisa adia a decisão final sobre a nova norma de rotulagem nutricional para o fim de setembro de 2020.
+                    </p>
+                  </div>
+                </li>
+        
+                <li class="cd-h-timeline__event text-component">
+                  <div class="cd-h-timeline__event-content container">
+                    <h2 class="cd-h-timeline__event-title title-timeline">setembro de 2020 - Prazo final para a aprovação da nova norma pela Diretoria Colegiada da Anvisa</h2>
+                    <p class="cd-h-timeline__event-description color-contrast-medium  text-timeline"> 
+                      Apesar da pandemia, a luta por informações claras e corretas nas embalagens dos alimentos ultraprocessados continua. Só assim, as pessoas poderão fazer escolhas alimentares mais saudáveis e conscientes.
+                    </p>
+                  </div>
+                </li>
+              </ol>
+            </div> <!-- .cd-h-timeline__events -->
+          </section>
+        </div>
+        <div class="block-button-six">
+          <a href="https://alimentacaosaudavel.org.br/campanhas/rotulagem/" target="_blank" class="button-block-six">Assine já a petição</a>
+        </div>
+      </div>
+      <div class="content-six-button">
+        <a href="https://alimentacaosaudavel.org.br/campanhas/rotulagem/" target="_blank" class="button-block-six">Evidências científicas</a>
+      </div>
+    </section>
+    
+    <section class="block-seven">
+      <div class="container text-center" id="evidence">
+        <div class="row">
+          <div class="col-md-4 colunm-seven">
+            <img src="assets/images/gafico.png" alt="Aliança Pela Alimentação Adequada e Saudável">
+            <h2 class="title-evidence">
+              Está comprovado: <br>
+              <span>com os triângulos, 8 em cada 10 brasileiros entendem o que estão comendo.</span>
+            </h2>
+            <p class="text-evidence">
+              Segundo pesquisa realizada em 2017 pelo Idec e o Nupens/USP, a proposta dos triângulos é a melhor solução, do ponto de vista da facilidade de entendimento. O resultado é que 80% dos entrevistados entenderam melhor a mensagem dos triângulos. 
+            </p>
+          </div>
+          <div class="col-md-4 colunm-seven">
+            <img src="assets/images/grafico_coluna.png" alt="Aliança Pela Alimentação Adequada e Saudável">
+            <h2 class="title-evidence">
+              Uma questão de saúde pública.
+            </h2>
+            <p class="text-evidence">
+              De acordo com o Ministério da Saúde, entre 2006 e 2016, houve um aumento de 60%* no número de pessoas diagnosticadas com diabetes no Brasil. Além disso, o excesso de peso entre adultos aumentou de 42,6% em 2006 para 55,4% em 2019. A obesidade é maior para as pessoas com até oito anos de escolaridade (24,2%) e aqueles com 12 anos ou mais (17,2%). As más escolhas alimentares são uma questão de saúde pública. Neste caso, informação clara e correta é o melhor remédio.
+              <br><br>
+              *Fonte: <br>
+              <a href="https://www.saude.gov.br/noticias/agencia-saude/46792-diabetes-hipertensao-e-obesidade-avancam-entre-os-brasileiros-2">https://www.saude.gov.br/noticias/agencia-saude/46792-diabetes-hipertensao-e-obesidade-avancam-entre-os-brasileiros-2</a>
+            </p>
+          </div>
+          <div class="col-md-4 colunm-seven">
+            <img src="assets/images/triangulos_aviso.png" alt="Aliança Pela Alimentação Adequada e Saudável">
+            <h2 class="title-evidence">
+              Mas qual é o melhor modelo de rotulagem frontal?
+            </h2>
+            <p class="text-evidence">
+              Uma pesquisa da Embrapa — Empresa Brasileira de Pesquisa Agropecuária testou os diferentes modelos de rotulagem frontal com o público brasileiro: semáforo, lupa, círculo, triângulo e octógono, pretos ou coloridos. As conclusões apontam que o uso de sinais familiares frequentemente utilizados para transmitir uma mensagem de alerta, como o octógono preto, triângulo preto e círculo vermelho, podem superar outros sinais gráficos desconhecidos na facilidade de entendimento por parte dos consumidores. 
+              <br><br>
+              *Fonte: <br>
+              <a href="https://idec.org.br/idec-na-imprensa/efetividade-das-advertencias-nos-rotulos-de-alimento">https://idec.org.br/idec-na-imprensa/efetividade-das-advertencias-nos-rotulos-de-alimento</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="block-button-seven">
+          <a href="https://alimentacaosaudavel.org.br/campanhas/rotulagem/" target="_blank" class="button-block-seven">Assine já a petição</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="background-black text-center">
+      <div class="container">
+        <h2 class="title-block-seven">
+          Rotulagem nutricional de advertências já é realidade.
+        </h2>
+      </div>
+    </div>
+
+    <section class="block-eight">
+      <div class="container text-center">
+        <div class="block-title-eight">
+          <h2 class="title-block-eight primary">
+            <span>América Latina é líder na adoção da rotulagem frontal nas embalagens.</span>
+          </h2>
+        </div>
+        <div class="block-text-eight">
+          <h2 class="text-block-eight">
+            A advertência frontal nas embalagens dos ultraprocessados já é uma realidade no Chile, México, Peru e Uruguai. <br>
+            A América Latina é protagonista deste movimento, que defende que cada país adote um modelo adaptado às suas necessidades, de acordo com fatores como o grau de educação e a situação socioeconômica de suas populações.
+          </h2>
+        </div>
+        
+        <div class="country-reviews">
+          <ul class="country-flags" >
+            <li><img src="assets/images/bandeira_chile.png" alt="Facebook" id="chile" class="flag active-flags"></li>
+            <li><img src="assets/images/bandeira_uruguai.png" alt="Facebook" id="uruguai" class="flag"></li>
+            <li><img src="assets/images/bandeira_peru.png" alt="Facebook" id="peru" class="flag"></li>
+            <li><img src="assets/images/bandeira_mexico.png" alt="Facebook" id="mexico" class="flag"></li>
+          </ul>
+          <div class="center-div">
+            <div class="descriptions-country">
+              <div class="description-flag active-country" id="flag-chile">
+                <h2 class="title-country">Chile</h2>
+                <p class="text-country">
+                  O consumo de bebidas açucaradas já caiu 23,7% no país. <br>
+                  O Chile tem advertência frontal nas embalagens desde 2016.
+                  <br><br>
+                  <span>
+                    Fonte: <a href="https://idec.org.br/noticia/taxacao-rotulagem-e-regulacao-de-publicidade-reduzem-consumo-de-bebidas-acucaradas-no-chile" target="_blank">https://idec.org.br/noticia/taxacao-rotulagem-e-regulacao-de-publicidade-reduzem-consumo-de-bebidas-acucaradas-no-chile</a>
+                  </span>
+                </p>
+              </div>
+              <div class="description-flag" id="flag-uruguai">
+                <h2 class="title-country">Uruguai</h2>
+                <p class="text-country">
+                  Desde 2018, adota a advertência frontal nas embalagens.
+                </p>
+              </div>
+              <div class="description-flag" id="flag-peru">
+                <h2 class="title-country">PERU</h2>
+                <p class="text-country">
+                  Adotou a rotulagem frontal dos alimentos em 2019.
+                </p>
+              </div>
+              <div class="description-flag" id="flag-mexico">
+                <h2 class="title-country">MEXICO</h2>
+                <p class="text-country">
+                  Aprovou a rotulagem frontal em 1º de outubro deste ano, baseado em estudo pioneiro que mostra que advertências nas embalagens de alimentos não saudáveis podem prevenir 1,3 milhões de casos de obesidade e economizar US$ 1,8 bilhão.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="block-title-eight">
+          <h2 class="title-block-eight">
+            Declaração do Relator Especial da ONU sobre o direito à saúde apoia a adoção da rotulagem na frente das embalagens.
+          </h2>
+        </div>
+        <div class="block-text-eight">
+          <h2 class="text-block-eight">
+            Não estamos sozinhos nesta luta. A ONU — Organização das Nações Unidas declara apoio à advertência frontal nas embalagens dos alimentos como forma de diminuir o aumento de doenças crônicas não transmissíveis, muitas delas relacionadas à má alimentação. Leia a declaração completa <a href="#" target="_blank">aqui</a>.
+          </h2>
+        </div>
+        <div class="block-button-eight">
+          <a href="https://alimentacaosaudavel.org.br/campanhas/rotulagem/" target="_blank" class="button-block-six">Assine já a petição</a>
+        </div>
       </div>
     </section>
 
     <footer>
-      <div class="social-rede">
-        <p class="text-social">Siga nossas redes sociais</p>
-        <div class="icon-sociais">
-          <a href="https://www.facebook.com/aliancapelaalimentacao/" target="_blank" class="link-social"><img src="assets/images/icon_facebook.png" alt="Facebook" class="icon-facebook"></a>
-          <a href="https://www.instagram.com/aliancaalimentacao/" target="_blank" class="link-social"><img src="assets/images/icon_instagram.png" alt="Instagram" class="icon-instagram"></a>
-          <a href="https://twitter.com/aliancaalimenta" target="_blank" class="link-social"><img src="assets/images/icon_twitter.png" alt="Twitter" class="icon-twitter"></a>
-          <a href="https://www.youtube.com/channel/UCS1OJPZ6T-HAzMOjSILJjfQ" target="_blank" class="link-social"><img src="assets/images/icon_youtube.png" alt="Youtube" class="icon-youtube"></a>
-        </div>
-      </div>
-      <div class="line-block-footer">
-        <hr width="85%" color="#000" size="1"> 
-      </div>
-      <div class="content-footer">
-        <div class="image-footer-idec">
-          <img src="assets/images/logo_footer_idec.png" alt="Instituto Brasileiro de Defesa do Consumidor">
-        </div>
-        <div class="image-footer-alianca">
-          <img src="assets/images/logo_footer_alianca.png" alt="Aliança Pela Alimentação Adequada e Saudável">
+      <div class="container" id="contact">
+        <div class="row">
+          <div class="col-lg-2">
+            <p class="text-social">Siga nossas redes sociais</p>
+          </div>
+          <div class="col-lg-3">
+            <div class="icon-sociais">
+              <a href="https://www.facebook.com/aliancapelaalimentacao/" target="_blank" class="link-social"><img src="assets/images/icon_facebook.png" alt="Facebook" class="icon-facebook"></a>
+              <a href="https://www.instagram.com/aliancaalimentacao/" target="_blank" class="link-social"><img src="assets/images/icon_instagram.png" alt="Instagram" class="icon-instagram"></a>
+              <a href="https://twitter.com/aliancaalimenta" target="_blank" class="link-social"><img src="assets/images/icon_twitter.png" alt="Twitter" class="icon-twitter"></a>
+              <a href="https://www.youtube.com/channel/UCS1OJPZ6T-HAzMOjSILJjfQ" target="_blank" class="link-social"><img src="assets/images/icon_youtube.png" alt="Youtube" class="icon-youtube"></a>
+            </div>
+          </div>
+          <div class="col-lg-7 content-footer">
+            <div class="image-footer-idec">
+              <img src="assets/images/logo_footer_idec.png" alt="Instituto Brasileiro de Defesa do Consumidor">
+            </div>
+            <div class="image-footer-alianca">
+              <img src="assets/images/logo_footer_alianca.png" alt="Aliança Pela Alimentação Adequada e Saudável">
+            </div>
+          </div>
         </div>
       </div>
     </footer>
@@ -172,5 +561,9 @@
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="assets/js/bootstrap.min.js" ></script>
+  <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+  <script src="assets/js/swipe-content.js"></script> <!-- A Vanilla JavaScript plugin to detect touch interactions -->
+  <script src="assets/js/flags.js"></script> <!-- A Vanilla JavaScript plugin to detect touch interactions -->
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
